@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name" translatable="false">Farm\nBasket</string>
+    <string name="login_txt_who_txt">Who are you</string>
+    <string name="login_btn_farmer_txt">Farmer</string>
+    <string name="login_btn_customer_txt">Customer</string>
+    <string name="login_txt_verify_txt">Verify phone number</string>
+    <string name="login_txt_phno_hint">Phone number</string>
+    <string name="login_txt_code_hint">Verification code</string>
+    <string name="login_btn_send_txt">Send code</string>
+    <string name="login_btn_submitverify_txt2">Verify</string>
+    <string name="login_btn_verify_intermediate">Verifying…</string>
+    <string name="login_btn_submit_intermediate">Sending…</string>
+    <string name="login_btn_submitverify_txt1">Send OTP</string>
+    <string name="login_txt_details_txt">Enter your details</string>
+    <string name="login_txt_name_hint">Name</string>
+    <string name="login_txt_area_hint">Tehsil / Zila</string>
+    <string name="login_btn_proceed_txt">Proceed</string>
+    <string name="login_txtPhno_invalid_error">Invalid phone number</string>
+    <string name="login_empty_error">All fields must be filled</string>
+    <string name="login_txtCode_short_error">Code should be of 6 digits</string>
+    <string name="login_txtCode_invalid_error">Invalid code</string>
+    <string name="login_btn_resend_txt">Resend OTP</string>
+    <string name="login_btn_resend_intermediate">Sending…</string>
+    <string name="login_btn_verify_success_intermediate">Fetching details…</string>
+    <string name="title_activity_farmer_main" translatable="false">FarmerMain</string>
+    <string name="farmer_nav_title_products">Products</string>
+    <string name="farmer_nav_title_chats">Chats</string>
+    <string name="farmer_nav_title_dashboard">Dashboard</string>
+    <string name="farmer_nav_title_profile">You</string>
+    <string name="txt_farmer_dashboard_title_txt">Dashboard</string>
+    <string name="farmer_dashboard_seg1_heading_txt">You have:</string>
+    <string name="farmer_dashboard_seg2_heading_txt">Stock:</string>
+    <string name="farmer_dashboard_seg2_empty_heading_txt">Stock empty. Go to the Products tab to add stock</string>
+    <string name="stock_list_item_available_txt">Available</string>
+    <string name="stock_list_item_required_txt">Required</string>
+    <string name="title_activity_customer_main" translatable="false">CustomerMain</string>
+    <string name="customer_nav_title_home">Home</string>
+    <string name="customer_nav_title_orders">Orders</string>
+    <string name="customer_nav_title_chats">Chats</string>
+    <string name="customer_nav_title_profile">You</string>
+    <string name="txt_farmer_products_title_txt">Products</string>
+    <string name="farmer_products_seg1_heading_open_txt">Add Product</string>
+    <string name="farmer_products_seg1_heading_close_txt">Done</string>
+    <string name="farmer_products_add_name_hint">Product Name</string>
+    <string name="farmer_products_add_qty_hint">Qty</string>
+    <string name="farmer_product_add_btn_add_txt">Add</string>
+    <string name="farmer_products_add_category_label">Category</string>
+    <string name="farmer_products_seg2_heading_txt">Your Products</string>
+    <string name="farmer_products_seg2_heading_intermediate_txt">Fetching data. Please wait…</string>
+    <string name="farmer_products_seg2_heading_empty_txt">No products added yet. Add new product by clicking on \'Add Product\' button</string>
+    <string name="farmer_product_products_heading_loading_txt">Loading...</string>
+    <string name="farmer_dashboard_seg2_loading_heading_txt">Loading...</string>
+    <string name="farmer_product_product_list_empty_heading_txt">No products added yet. Click on Add Products button to add new products</string>
+    <string name="farmer_product_product_list_normal_heading_txt">Your products</string>
+    <string name="farmer_products_btn_modify_txt">Modify</string>
+    <string name="farmer_products_btn_add_txt">Add</string>
+    <string name="farmer_products_add_product_currency_txt" translatable="false">₹</string>
+    <string name="farmer_products_add_product_price_hint">Price</string>
+    <string name="farmer_products_add_product_unit_hint">Unit</string>
+    <string name="farmer_products_add_product_auto_unit_txt">Auto</string>
+    <string name="farmer_products_add_product_empty_fields_error">All fields must be filled</string>
+    <string name="price_unit_seperator" translatable="false">/</string>
+    <string name="txt_farmer_profile_title_txt">Profile</string>
+    <string name="farmer_profile_seg1_heading_txt">Your details</string>
+    <string name="farmer_profile_btn_edit_txt">Edit</string>
+    <string name="farmer_profile_btn_update_txt">Update</string>
+    <string name="farmer_profile_btnsignout_txt">Sign Out</string>
+    <string name="farmer_dashboard_orders_label">orders</string>
+    <string name="farmer_dashboard_urgent_label">Urgent</string>
+    <string name="farmer_dashboard_regular_label">Regular</string>
+    <string name="customer_home_product_by_category_heading_txt">Shop by categories</string>
+    <string name="customer_home_hide_category_heading_txt">Close Category Tab</string>
+    <string name="customer_home_loading_category_heading_txt">Loading the categories</string>
+    <string name="customer_home_empty_category_heading_txt">No categories found</string>
+    <string name="customer_home_all_product_heading_txt">All products</string>
+    <string name="customer_home_empty_product_heading_txt">No products available yet</string>
+    <string name="customer_home_loading_product_heading_txt">Please wait.. preparing the store</string>
+    <string name="customer_home_search_all_hint">Search all Products</string>
+    <string name="customer_orders_list_heading">Your Orders:</string>
+    <string name="customer_orders_empty_orders_txt">There are no items in your cart</string>
+    <string name="customer_orders_start_shopping_text">Start Shopping</string>
+    <string name="customer_orders_confirm_order_btn_txt">Confirm Order</string>
+    <string name="customer_orders_urgent_check_txt">Urgent Order</string>
+    <string name="customer_orders_submit_success_txt">Your orders are successfully placed</string>
+    <string name="customer_orders_continue_shopping_txt">Continue Shopping</string>
+    <string name="customer_address_houseno_hint">House / Flat no.</string>
+    <string name="customer_address_street_hint">Street / Locality</string>
+    <string name="customer_address_landmark_hint">Landmark (optional)</string>
+    <string name="title_location_permission" translatable="false">Location permission required</string>
+    <string name="text_location_permission" translatable="false">Location permission required to get the accurate delivery location</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="customer_address_getting_location_txt">Getting location...</string>
+    <string name="title_address_not_set" translatable="false">No delivery address set</string>
+    <string name="text_address_not_set" translatable="false">There is no delivery address set for this profile. Set a delivery address then try again.</string>
+    <string name="farmer_dashboard_btn_see_all_orders_txt">See all</string>
+    <string name="farmer_dashboard_announcement_heading">Announcement</string>
+    <string name="ann_details_posted_txt">Posted on:</string>
+    <string name="farmer_orders_empty_orders_txt">No pending orders</string>
+    <string name="farmer_orders_delivery_confirmation_prompt" translatable="false">Order delivered?</string>
+    <string name="farmer_orders_delivery_confirmation_positive" translatable="false">Yes</string>
+    <string name="farmer_orders_delivery_confirmation_negative" translatable="false">No</string>
+    <string name="farmer_profile_seg2_heading_txt">Aadhar card</string>
+    <string name="farmer_profile_seg3_heading_txt">Certificate</string>
+    <string name="farmer_profile_not_set_status_txt">Not set</string>
+    <string name="farmer_profile_pending_status_txt">Pending</string>
+    <string name="farmer_profile_approved_status_txt">Approved</string>
+    <string name="farmer_profile_denied_status_txt">Denied</string>
+    <string name="farmer_profile_selec_image_btn_txt">Select Image</string>
+    <string name="farmer_order_list_tem_call_btn_txt" translatable="false">Call</string>
+    <string name="title_call_permission">Require call permission</string>
+    <string name="text_call_permission">Please grant call permission to be able to call the customer</string>
+    <string name="farmer_orders_list_item_delivered_btn_txt" translatable="false">Delivered</string>
+    <string name="farmer_profile_change_image_btn_txt">Change</string>
+    <string name="customer_edit_address_saving_btn_txt">Saving</string>
+    <string name="farmer_profile_approval_status_checking">Checking</string>
+    <string name="customer_nav_title_prfile">You</string>
+    <string name="customer_profile_address_heading">Address</string>
+    <string name="customer_profile_address_box_hint">Address not set</string>
+    <string name="customer_edit_profile_title_txt">Edit Profile</string>
+    <string name="customer_profile_my_orders_txt">My Pending Orders</string>
+    <string name="customer_txt_call_permission_description">Please grant call permission to be able to call the farmer directly</string>
+    <string name="customer_profile_support_heading_txt">Support</string>
+    <string name="customer_profile_call_us_btn_txt">Call Us</string>
+    <string name="customer_profile_email_btn_txt">Email</string>
+    <string name="customer_profile_about_us_btn_txt">About Us</string>
+
+
+    <string name="about_us_text">The Lok Kalyan Samiti Amritsar- punjab INDIA is a group of youths and experts working on different issues like Sustainable Rural development, Environment conservation, Human Health, Youth development, and women empowerment among villagers, students, youth &amp; women . Lok Kalyan Samiti (LKS) is a non-profit organization which is registered under Society’s Registration Act 1860 in the year 2002. LKS under the direction of its founder S. Jagmohan Singh Gill Founder of Lok Kalyan Samiti, has got knowledgeable human resource to drive the various awareness activities and carry out impactful actions.
+
+        \n\nVision / Mission
+\nTo promote all aspects of voluntary efforts to encourage sustainable development of a community in rural and urban slum areas.
+\n\nBeing a Bhartiya, our commitments towards nation drives us and we are dedicated towards various social cause and uplift of Youth.
+        \n\n\nOur mission is as follows:
+\n\n• To work towards promotion of real sustainable development of nation and state with nature friendly technologies, conservation of Natural Resources, Environment conservation, and Rural Development. Through various trainings, awareness camps, capacity building programmes &amp; grass root working, we educate various industry personnel of harmless use of technology and chemicals.
+
+\n\n• To work towards upliftment of youth and poor women by giving them education on various skill development and enable them to be self-reliant to enjoy a healthy dignified and sustainable quality of life. This is achieved through our Training programmes, Awareness camps, Seminars and grass root working.
+
+\n\n• To work for human health and welfare of under privileged class.</string>
+    <string name="abou_us_heading">About Us</string>
+    <string name="farmer_profile_call_hq_btn_txt">Call Head Quaters</string>
+
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.smartagriculture.FarmerProducts">
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:fontFamily="@font/cambay"
+        android:gravity="center"
+        android:text="@string/txt_farmer_products_title_txt"
+        android:textAlignment="center"
+        android:textColor="@color/txtLabelColor"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/btnExpColAddProd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/txtbox_bg"
+            android:fontFamily="@font/cambay"
+            android:text="@string/farmer_products_seg1_heading_open_txt"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <ScrollView
+            android:id="@+id/addViewGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:fontFamily="@font/cambay"
+                        android:gravity="center_vertical"
+                        android:text="@string/farmer_products_add_category_label"
+                        android:textColor="@color/txtLabelColor"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/spinnerCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:spinnerMode="dialog" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="12">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="6"
+                        android:hint="@string/farmer_products_add_name_hint">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/txtName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/cambay"
+                            android:inputType="textCapWords"
+                            android:maxLines="1"
+                            android:textColor="@color/txtLabelColor" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:layout_weight="1" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_weight="2"
+                        android:hint="@string/farmer_products_add_qty_hint">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/txtQuantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/cambay"
+                            android:inputType="number|numberDecimal"
+                            android:maxLines="1"
+                            android:textColor="@color/txtLabelColor" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="end"
+                        android:layout_weight="1" />
+
+                    <Spinner
+                        android:id="@+id/spinnerUnits"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="end"
+                        android:layout_weight="2"
+                        android:spinnerMode="dialog" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/cambay"
+                        android:gravity="center_vertical"
+                        android:text="@string/farmer_products_add_product_currency_txt"
+                        android:textColor="@color/txtLabelColor"
+                        android:textSize="18sp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:hint="@string/farmer_products_add_product_price_hint">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/txtPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/cambay"
+                            android:inputType="number|numberDecimal"
+                            android:maxLines="1" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/cambay"
+                        android:gravity="center_vertical"
+                        android:text="@string/price_unit_seperator"
+                        android:textAlignment="center"
+                        android:textColor="@color/txtLabelColor"
+                        android:textSize="20sp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:hint="@string/farmer_products_add_product_unit_hint">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/txtUnit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/cambay"
+                            android:maxLines="1" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <CheckBox
+                        android:id="@+id/checkAutoUnit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:fontFamily="@font/cambay"
+                        android:text="@string/farmer_products_add_product_auto_unit_txt"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <Button
+                    android:id="@+id/btnAddProduct"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_trans"
+                    android:text="@string/farmer_product_add_btn_add_txt"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:id="@+id/productListGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtPoductsHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/txtbox_bg"
+            android:fontFamily="@font/cambay"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:text="@string/farmer_products_seg2_heading_txt"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <ListView
+            android:id="@+id/listProducts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

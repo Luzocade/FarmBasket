@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.smartagriculture.CustomerHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/txtbox_bg"
+            android:fontFamily="@font/cambay"
+            android:paddingStart="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnAreaChange"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_trans"
+            android:fontFamily="@font/cambay"
+            android:text="Change"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:id="@+id/categoryGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/btnExpandCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_trans"
+            android:fontFamily="@font/cambay"
+            android:padding="5dp"
+            android:text="@string/customer_home_product_by_category_heading_txt"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/catProgress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:max="100" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <GridView
+            android:id="@+id/categoryGrid"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_weight="1"
+            android:columnWidth="100dp"
+            android:horizontalSpacing="5dp"
+            android:numColumns="3"
+            android:verticalSpacing="5dp"
+            android:visibility="gone"
+            tools:listitem="@layout/category_grid_item_layout" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:id="@+id/productsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnClearFilter"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_trans"
+                android:scaleType="fitXY"
+                android:src="@drawable/clear_filter"
+                android:visibility="gone" />
+
+            <AutoCompleteTextView
+                android:id="@+id/txtSearchField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/txtbox_bg"
+                android:fontFamily="@font/cambay"
+                android:hint="Search Product"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:singleLine="true"
+                android:textColor="@color/txtLabelColor"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtProductsHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/txtbox_bg"
+                android:fontFamily="@font/cambay"
+                android:paddingStart="10dp"
+                android:singleLine="true"
+                android:text="@string/customer_home_all_product_heading_txt"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/btnSearchCancel"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_trans"
+                android:scaleType="fitXY"
+                android:src="@drawable/magnifier"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/prodProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:max="100" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ListView
+            android:id="@+id/productsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:headerDividersEnabled="false"
+            android:visibility="gone"
+            tools:listitem="@layout/products_grid_item_layout" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

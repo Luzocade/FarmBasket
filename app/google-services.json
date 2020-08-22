@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "786454041737",
+    "firebase_url": "https://smartagriculture-bfd27.firebaseio.com",
+    "project_id": "smartagriculture-bfd27",
+    "storage_bucket": "smartagriculture-bfd27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786454041737:android:aca11393ccee1473",
+        "android_client_info": {
+          "package_name": "com.smartagriadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786454041737-pfqbe1826283r37ovptn68n2910vc3cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartagriadmin",
+            "certificate_hash": "4371d03c68c71262791672084652e76ded319ff2"
+          }
+        },
+        {
+          "client_id": "786454041737-s9inuni960gkmuuccgcmg4336nbs680u.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "786454041737-s9inuni960gkmuuccgcmg4336nbs680u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTdsrnjP6flXeDNf24g21ZpZlxFO774_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786454041737-s9inuni960gkmuuccgcmg4336nbs680u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786454041737:android:5d1a707443633815",
+        "android_client_info": {
+          "package_name": "com.smartagriculture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786454041737-ud3m4c6rlfn3sajl5b9o3p0nrt8vhnk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartagriculture",
+            "certificate_hash": "4371d03c68c71262791672084652e76ded319ff2"
+          }
+        },
+        {
+          "client_id": "786454041737-s9inuni960gkmuuccgcmg4336nbs680u.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "786454041737-s9inuni960gkmuuccgcmg4336nbs680u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTdsrnjP6flXeDNf24g21ZpZlxFO774_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786454041737-s9inuni960gkmuuccgcmg4336nbs680u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
